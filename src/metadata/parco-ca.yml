@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/parco-ca
+
+idspace: PARCO-CA
+base_url: /obo/parco-ca
+
+products:
+- parco-ca.owl: https://raw.githubusercontent.com/eu-parc/parco-ca/main/parco-ca.owl
+- parco-ca.obo: https://raw.githubusercontent.com/eu-parc/parco-ca/main/parco-ca.obo
+
+term_browser: ontobee
+example_terms:
+- PARCO-CA_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/eu-parc/parco-ca/v
+
+- prefix: /tracker/
+  replacement: https://github.com/eu-parc/parco-ca/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PARCO-CA?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/eu-parc/parco-ca/main/
+
