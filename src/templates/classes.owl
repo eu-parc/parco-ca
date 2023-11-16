@@ -1,0 +1,4779 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://si.eu-parc.eu/parco-ca/components/.owl#"
+     xml:base="http://si.eu-parc.eu/parco-ca/components/.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://si.eu-parc.eu/parco-ca/components/.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1000 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1000">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enter descriptors that apply to the methodologies used in the project</obo:IAO_0000115>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project descriptor</rdfs:label>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/OBI_0000070</owl:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1001 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1001">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANOVA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1002 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1002">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilingual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1003 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1003">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilingual Advantage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1004 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1004">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Case-control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1005 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1005">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Child outcomes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1006 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1006">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical case study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1007 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1007">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive neuroscience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1008 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1008">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptive Statistics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1009 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1009">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discourse analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1010 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1010">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dyadic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1011 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1011">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1012 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1012">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1013 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1013">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnographic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1014 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1014">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Executive Functions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1015 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1015">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Existing records data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1016 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1016">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1017 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1017">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyetracking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1018 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1018">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetically-sensitive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1019 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1019">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1020 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1020">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual difference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1021 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1021">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrated Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1022 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1022">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1023 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1023">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindergarten Readiness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1024 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1024">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learning Disabilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1025 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1025">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longitudinal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1026 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1026">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Anxiety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1027 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1027">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1028 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1028">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1029 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1029">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics Difficulty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1030 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1030">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meta-analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1031 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1031">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle School Children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1032 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1032">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroimaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1033 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1033">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuroscience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1034 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1034">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1035 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1035">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychometrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1036 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1036">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychophysiological</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1037 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1037">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quadratic Relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1038 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1038">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1039 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1039">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1040 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1040">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quasi-experimental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1041 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1041">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randomized Control Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1042 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1042">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1043 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1043">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Anxiety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1044 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1044">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading-age method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1045 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1045">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regression discontinuity design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1046 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1046">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1047 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1047">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single-case design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1048 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1048">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social and Emotional Skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1049 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1049">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1050 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1050">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teacher Outcomes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1051 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1051">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1052 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1052">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1053 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1053">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Twin Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1054 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1054">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1055 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1055">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">word learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1056 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1056">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Word Problems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1057 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1057">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Working Memory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1058 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1058">
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educational Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1059 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1059">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ancillary school services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1060 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1060">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charter schools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1061 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1061">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Child caregivers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1062 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1062">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Childcare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1063 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1063">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Adolescents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1064 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1064">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day care centers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1065 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1065">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day care effects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1066 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1066">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early childhood education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1067 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1067">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1068 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1068">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1069 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1069">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1070 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1070">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education Research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1071 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1071">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elementary School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1072 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1072">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Even Start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1073 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1073">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family day care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1074 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1074">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family literacy program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1075 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1075">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Head Start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1076 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1076">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Poverty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1077 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1077">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1078 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1078">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Learning Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1079 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1079">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Schooling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1080 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1080">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kenan Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1081 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1081">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language experience approach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1082 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1082">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnet schools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1083 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1083">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metascience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1084 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1084">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1085 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1085">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parents as Teachers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1086 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1086">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-Secondary Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1087 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1087">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1058"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prekindergarten classes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1088 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1088">
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Educational Curricula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1089 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1089">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 Book Challenge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1090 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1090">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Celebration of Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1091 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1091">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A+ny where Learning System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1092 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1092">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academic Associates Learning Centers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1093 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1093">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Academy of READING®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1094 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1094">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accelerated Math®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1095 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1095">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accelerated Reader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1096 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1096">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achieve3000®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1097 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1097">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquiring Ethical Guidelines for Individual Self Governance (AEGIS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1098 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1098">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Addison-Wesley Mathematics basal program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1099 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1099">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advancement Via Individual Determination (AVID)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1100 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1100">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adventures of Jasper Woodbury Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1101 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1101">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algebra Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1102 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1102">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algebraic Thinking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1103 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1103">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlphabiTunes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1104 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1104">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha-Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1105 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1105">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Als speciale kleuter tel je ook me! (Young Children with Special Needs Count, Too!)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1106 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1106">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America&apos;s Choice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1107 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1107">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appalachia Model Mathematics Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1108 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1108">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athens Tutorial Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1109 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1109">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced Early Literacy Initiative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1110 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1110">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barrett Math Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1111 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1111">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barton Reading &amp; Spelling System®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1112 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1112">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barton Reading and Spelling System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1113 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1113">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benchmark Word Recognition Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1114 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1114">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bilingual Cooperative Integrated Reading and Composition (BCIRC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1115 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1115">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book Buddies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1116 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1116">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book clubs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1117 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1117">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bookmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1118 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1118">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradley Reading and Language Arts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1119 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1119">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breakthrough to Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1120 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1120">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1121 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1121">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bridges in Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1122 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1122">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bright Beginnings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1123 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1123">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bring the Classics to Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1124 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1124">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building Blocks for Math (SRA Real Math)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1125 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1125">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building Decision Skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1126 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1126">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building Esteem in Students Today (BEST)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1127 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1127">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.L.A.P., A sound Approach to Pre-Reading Skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1128 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1128">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California Early Literacy Learning (CELL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1129 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1129">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbo Reading Styles Program®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1130 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1130">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caring Habits Experience, The</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1131 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1131">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caring School Community (CSC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1132 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1132">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changing Lives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1133 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1133">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Character Building &amp; Reading Mastery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1134 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1134">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Character Counts!</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1135 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1135">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Character First!</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1136 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1136">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHARACTERplus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1137 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1137">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check &amp; Connect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1138 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1138">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIERA School Change Project, The</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1139 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1139">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClassWide Peer Tutoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1140 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1140">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Algebra I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1141 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1141">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Algebra II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1142 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1142">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1143 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1143">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Integrated Math I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1144 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1144">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Integrated Math II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1145 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1145">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Tutor® Integrated Math III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1146 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1146">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community of Caring®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1147 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1147">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CompassLearning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1148 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1148">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compensatory Language Experiences and Reading Program (CLEAR)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1149 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1149">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comprehensive Curriculum for Early Student Success (ACCESS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1150 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1150">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Curriculum Corporation (CCC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1151 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1151">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Managed Mastery Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1152 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1152">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer-aided instruction (CAI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1153 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1153">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept Phonics Fluency Set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1154 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1154">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept-Oriented Reading Instruction (CORI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1155 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1155">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connect with Kids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1156 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1156">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connected Mathematics Project (CMP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1157 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1157">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connecting Math Concepts (CMC) mathematics program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1158 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1158">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consistency Management®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1159 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1159">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooperative Integrated Reading and Composition® (CIRC®)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1160 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1160">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coping Power</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1161 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1161">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CORD Applied Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1162 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1162">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Core Knowledge Curriculum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1163 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1163">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Core Knowledge Language Arts Knowledge Strand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1164 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1164">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Core-Plus Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1165 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1165">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornerstone Literacy Initiative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1166 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1166">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrective Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1167 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1167">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Countdown Video IGAP Intervention Tape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1168 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1168">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crossties</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1169 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1169">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curiosity Corner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1170 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1170">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DaisyQuest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1171 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1171">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davis Learning Strategies Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1172 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1172">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Des Moines Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1173 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1173">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destination Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1174 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1174">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destination Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1175 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1175">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dialogic Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1176 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1176">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Different Ways of Knowing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1177 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1177">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digi-Block® Learning System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1178 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1178">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1179 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1179">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction and CIRC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1180 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1180">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/DISTAR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1181 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1181">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/DISTAR and Success for All</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1182 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1182">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/Horizons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1183 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1183">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/RITE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1184 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1184">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/Spelling Mastery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1185 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1185">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/SRA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1186 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1186">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Instruction/Teach Your Child to Read in 100 Easy Lessons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1187 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1187">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct, Intensive, Systematic, Early and Comprehensive (DISEC) Instruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1188 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1188">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discover Intensive Phonics for Yourself</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1189 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1189">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discovery Health Connection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1190 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1190">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discovery Health Connection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1191 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1191">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doors to Discovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1192 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1192">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dr. Cupp Readers &amp; Journal Writers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1193 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1193">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DreamBox Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1194 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1194">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early Intervention in Reading (EIR)®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1195 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1195">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early Risers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1196 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1196">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earobics®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1197 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1197">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edison Schools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1198 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1198">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emerging Readers Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1199 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1199">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enhanced Proactive Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1200 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1200">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enVisionMATH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1201 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1201">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESSENTIAL Curriculum, The™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1202 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1202">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Essential Skills Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1203 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1203">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everyday Mathematics®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1204 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1204">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evidence Based Literacy Instruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1205 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1205">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exemplary Center for Reading Instruction (ECRI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1206 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1206">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facing History and Ourselves</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1207 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1207">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Failure Free Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1208 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1208">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast ForWord®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1209 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1209">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Track Action Reading Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1210 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1210">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Track: Elementary School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1211 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1211">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felipe&apos;s Sound Search</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1212 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1212">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First grade Literacy Intervention Program (FLIP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1213 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1213">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Step to Success</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1214 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1214">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Steps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1215 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1215">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flippen Reading Connections™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1216 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1216">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florida Primary Education Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1217 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1217">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluency Formula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1218 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1218">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four Block Framework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1219 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1219">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontline Phonics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1220 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1220">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Behavioral Assessment-based Interventions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1221 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1221">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FUNdamentallyMATH®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1222 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1222">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1223 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1223">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funnix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1224 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1224">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geo-Logo, by Investigations in Number, Data, and Space®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1225 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1225">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giraffe Heroes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1226 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1226">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOcabulary Program for Elementary Students</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1227 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1227">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goldman-Lynch Language Simulation Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1228 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1228">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goldman-Lynch Sounds-in-Symbols Development Kit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1229 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1229">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1230 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1230">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green Dot Public Schools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1231 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1231">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growing With Mathematics®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1232 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1232">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guided Discovery LOGO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1233 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1233">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Head Start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1234 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1234">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headsprout Early Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1235 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1235">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headsprout® Early Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1236 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1236">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heartwood Ethics Curriculum/An Ethics Curriculum for Children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1237 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1237">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heath Mathematics Connections (textbook series)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1238 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1238">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High School Puente Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1239 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1239">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Higher Order Thinking Skills (HOTS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1240 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1240">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holt Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1241 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1241">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holt Middle School Math (textbook)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1242 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1242">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Language Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1243 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1243">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hooked on Phonics ®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1244 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1244">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Houghton Mifflin Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1245 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1245">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Houghton Mifflin Reading©</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1246 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1246">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huntington Phonics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1247 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1247">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I CAN Learn®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1248 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1248">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I CAN Learn® Algebra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1249 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1249">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I CAN Learn® Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1250 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1250">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Care Parental Involvement Character Curriculum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1251 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1251">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instructional Conversations and Literature Logs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1252 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1252">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrated Mathematics, Science, and Technology (IMaST)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1253 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1253">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntelliTools Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1254 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1254">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigations in Number, Data, and Space®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1255 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1255">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Invitations to Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1256 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1256">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jigsaw Classroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1257 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1257">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnny Can Spell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1258 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1258">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jostens Integrated Language Arts Basic Learning System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1259 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1259">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jostens Integrated Learning System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1260 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1260">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Key Math Teach and Practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1261 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1261">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-12</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindergarten Intervention Program (KIP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1262 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1262">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kindergarten Works</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1263 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1263">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowing Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1264 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1264">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge is Power Program (KIPP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1265 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1265">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kumon Mathematics Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1266 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1266">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ladders to Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1267 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1267">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LANGUAGE!®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1268 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1268">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Larson Developmental Math Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1269 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1269">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leap into Phonics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1270 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1270">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LeapFrog Schoolhouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1271 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1271">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learning for Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1272 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1272">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lessons in Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1273 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1273">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Let&apos;s Begin with the Letter People®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1274 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1274">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Letter People</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1275 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1275">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Letterland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1276 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1276">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leveled Literacy Intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1277 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1277">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lexia Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1278 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1278">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lightspan Achieve Now</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1279 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1279">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lindamood Phoneme Sequencing® (LiPS®)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1280 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1280">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LinguiSystems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1281 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1281">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lions Quest -- Skills for Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1282 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1282">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lions Quest -- Skills for Adolescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1283 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1283">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lions Quest -- Skills for Growing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1284 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1284">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literacy Collaborative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1285 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1285">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literacy Express</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1286 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1286">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literacy First</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1287 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1287">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1288 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1288">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Living Values Educational Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1289 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1289">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LocuTour Multimedia Cognitive Rehabilitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1290 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1290">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logo programming language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1291 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1291">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logo programming language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1292 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1292">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lovaas Model of Applied Behavior Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1293 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1293">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Love in a Big World</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1294 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1294">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macmillan/McGraw-Hill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1295 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1295">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Making Meaning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1296 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1296">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Advantage (textbook series)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1297 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1297">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Applications and Connections (textbook series published by Glencoe)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1298 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1298">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Renaissance®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1299 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1299">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Math Trailblazers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1300 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1300">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics in Action (textbook series published by MacMillan)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1301 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1301">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics in Context (MiC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1302 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1302">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics Plus (textbook series published by Harcourt)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1303 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1303">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics Their Way®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1304 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1304">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathematics Today by Harcourt Brace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1305 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1305">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathFact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1306 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1306">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathScape: Seeing and Thinking Mathematically</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1307 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1307">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathSteps by Houghton Mifflin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1308 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1308">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathThematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1309 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1309">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MathWings by the Success for All Foundation®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1310 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1310">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merit Reading Software Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1311 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1311">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Grades Math (textbook series, published by ScottForesman/AddisonWesley)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1312 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1312">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle School Mathematics through Applications Program (MMAP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1313 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1313">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milieu Teaching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1314 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1314">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moving with Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1315 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1315">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moving with Math® Extensions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1316 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1316">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moving with Math® Math by Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1317 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1317">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple Saxon Math Courses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1318 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1318">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Reading Coach™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1319 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1319">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mystery Motivator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1320 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1320">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Board for Professional Teaching Standards (NBPTS) Certification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1321 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1321">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Geographic Society and Arizona Geographic Alliance K-8 Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1322 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1322">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New American Schools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1323 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1323">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Century Integrated Instructional System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1324 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1324">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Century Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1325 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1325">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Heights</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1326 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1326">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North Carolina A+ Schools network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1327 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1327">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number Power™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1328 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1328">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Numeracy Recovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1329 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1329">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odyssey Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1330 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1330">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odyssey® Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1331 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1331">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onward to Excellence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1332 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1332">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Circle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1333 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1333">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Court Reading©</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1334 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1334">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opening Eyes to Mathematics by The Math Learning Center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1335 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1335">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orton–Gillingham® technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1336 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1336">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pacemaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1337 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1337">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Partnership for Access to Higher Mathematics (PATH Mathematics)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1338 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1338">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathways to Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1339 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1339">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pause, Prompt, &amp; Praise ©</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1340 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1340">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peabody Language Development Kits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1341 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1341">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peace Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1342 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1342">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peer-Assisted Learning Strategies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1343 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1343">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performance Learning Systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1344 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1344">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personalized System of Instruction (PSI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1345 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1345">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phono-Graphix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1346 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1346">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phonological Awareness Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1347 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1347">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phonological Awareness Training plus Letter Knowledge Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1348 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1348">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piacceleration Instruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1349 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1349">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pivotal Response Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1350 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1350">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLATO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1351 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1351">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Play-Based Interventions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1352 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1352">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positive Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1353 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1353">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-K Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1354 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1354">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prentice Hall Literature© (1989-2005)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1355 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1355">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prentice Hall/Pearson Literature© (2007-15)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1356 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1356">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmed Tutorial Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1357 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1357">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progress in Mathematics © 2006</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1358 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1358">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project 2000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1359 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1359">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project CHILD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1360 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1360">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project CRISS®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1361 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1361">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project FAST</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1362 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1362">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project LISTEN&apos;s Reading Tutor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1363 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1363">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project LISTEN&apos;s Writing Tutor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1364 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1364">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project MAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1365 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1365">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project PLUS (Partnership Linking University School Personnel)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1366 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1366">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Read® Phonology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1367 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1367">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project SEED</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1368 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1368">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Teach and Reach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1369 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1369">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Wisdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1370 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1370">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1371 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1371">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuickReads</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1372 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1372">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rainbow Reading Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1373 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1373">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rational Number Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1374 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1374">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">READ 180®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1375 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1375">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read Naturally®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1376 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1376">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read Well®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1377 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1377">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read, Write &amp; Type!</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1378 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1378">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Apprenticeship®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1379 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1379">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Edge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1380 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1380">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Intervention for Early Success</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1381 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1381">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Mastery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1382 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1382">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Plus®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1383 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1383">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Recovery®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1384 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1384">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Rods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1385 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1385">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading RULES! Kindergarten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1386 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1386">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Speed Drills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1387 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1387">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Success from the Start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1388 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1388">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Theater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1389 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1389">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Together™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1390 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1390">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading Upgrade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1391 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1391">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ready, Set, Leap!®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1392 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1392">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ready, Set, Leap!®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1393 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1393">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Math basal mathematics program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1394 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1394">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reasoning Mind</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1395 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1395">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reciprocal Teaching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1396 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1396">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repeated Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1397 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1397">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolving Conflict Creatively Program (RCCP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1398 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1398">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richards Read Systematic Language Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1399 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1399">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richmond Young Students Mathematics (RYSM) Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1400 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1400">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right Start to Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1401 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1401">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Road to the Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1402 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1402">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1403 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1403">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RULER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1404 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1404">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rutgers-Kenilworth Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1405 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1405">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S.P.I.R.E.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1406 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1406">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAIL (Second grade Acceleration in Literacy)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1407 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1407">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Advanced Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1408 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1408">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Algebra I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1409 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1409">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Algebra II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1410 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1410">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1411 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1411">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Math</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1412 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1412">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxon Phonics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1413 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1413">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schoolwide Early Language and Literacy (SWELL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1414 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1414">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Foresman Math Diagnostic &amp; Intervention System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1415 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1415">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott Foresman-Addison Wesley Elementary Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1416 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1416">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second Step</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1417 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1417">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Self-Regulated Strategy Development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1418 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1418">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shared Book Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1419 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1419">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sharon Wells Mathematics Curriculum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1420 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1420">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Burdett Ginn Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1421 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1421">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sing, Spell, Read &amp; Write</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1422 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1422">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sing, Spell, Read, and Write (SSRW)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1423 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1423">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1424 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1424">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Six Through Eighth Grade Mathematics (STEM) Project, The</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1425 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1425">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skills Reinforcement Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1426 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1426">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SkillsTutor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1427 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1427">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smart and Good</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1428 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1428">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soar to Success</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1429 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1429">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Skills Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1430 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1430">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonday System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1431 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1431">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sound Field System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1432 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1432">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sound Foundations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1433 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1433">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sound Partners</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1434 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1434">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sound Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1435 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1435">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sounds Abound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1436 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1436">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sounds and Symbols Early Reading Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1437 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1437">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South African Government Curriculum (CAPS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1438 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1438">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spelling Mastery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1439 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1439">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpellRead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1440 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1440">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starfall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1441 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1441">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Start Making a Reader Today® (SMART®)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1442 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1442">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stepping Stones to Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1443 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1443">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STEPS (Sequential Teaching of Explicit Phonics and Spelling)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1444 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1444">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stories and More</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1445 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1445">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Story Champs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1446 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1446">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Story Comprehension to Go</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1447 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1447">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategic Math Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1448 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1448">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategies that Work</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1449 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1449">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Student team reading and writing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1450 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1450">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Student Teams Achievement Divisions (STAD)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1451 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1451">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Success for All®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1452 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1452">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Success through Accepting Responsibility (S.T.A.R.)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1453 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1453">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Successmaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1454 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1454">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SuccessMaker®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1455 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1455">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sullivan Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1456 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1456">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System of Least Prompts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1457 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1457">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talent Development Middle Grades Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1458 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1458">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAP: The System for Teacher and Student Advancement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1459 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1459">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teach for America (TFA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1460 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1460">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teacher to Teacher Math Problem Solving Supplementary Curriculum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1461 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1461">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Creative Curriculum® for Preschool, Fourth Edition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1462 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1462">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Expert Mathematician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1463 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1463">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Incredible Years</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1464 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1464">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Spalding Method®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1465 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1465">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinking Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1466 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1466">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIPS: Math (Teachers Involve Parents in Schoolwork)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1467 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1467">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TNTP Teaching Fellows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1468 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1468">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Too Good for Drugs (TGFD)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1469 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1469">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Too Good for Drugs and Violence (TGFD &amp; V)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1470 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1470">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Too Good For Violence (TGFV)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1471 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1471">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tools for Getting Along</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1472 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1472">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tools of the Mind</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1473 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1473">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TouchMath®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1474 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1474">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transition Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1475 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1475">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tribes Learning Communities®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1476 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1476">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tribes TLC®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1477 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1477">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unitedstreaming™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1478 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1478">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Advanced Algebra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1479 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1479">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Algebra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1480 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1480">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Functions, Statistics, and Trigonometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1481 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1481">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1482 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1482">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Multiple Courses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1483 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1483">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">University of Chicago School Mathematics Project (UCSMP) Precalculus and Discrete Mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1484 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1484">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanderbilt Grade 2 Pirate Math Intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1485 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1485">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual Mathematics by The Math Learning Center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1486 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1486">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vmath®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1487 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1487">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulary Improvement Program for English Language Learners and Their Classmates (VIP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1488 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1488">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voices Literature and Character Education (Voices LACE)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1489 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1489">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voices Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1490 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1490">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VoWac (Vowel Oriented Word Attack Course)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1491 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1491">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voyager Universal Literacy System®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1492 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1492">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voyages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1493 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1493">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voyages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1494 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1494">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasatch Interactive Learning, distributed by Plato Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1495 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1495">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterford Early Reading Level One</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1496 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1496">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterford Early Reading Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1497 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1497">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WiggleWorks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1498 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1498">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wilson Reading System®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1499 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1499">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wisdom for Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1500 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1500">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WiseSkills®</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1501 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1501">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Words and Concepts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1502 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1502">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Words Their Way™</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1503 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1503">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WORKSHOP WAY - Instant Personality Phonics Activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1504 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1504">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wright Group&apos;s Intervention Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1505 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1505">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1088"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Writing to Read</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1506 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1506">
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developmental Designs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1507 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1507">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cohort Sequential</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1508 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1508">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-14</terms:created>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Control Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1509 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1509">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correlation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1510 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1510">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross-sectional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1511 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1511">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Individual Differences</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1512 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1512">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longitudinal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1513 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1513">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meta-Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1514 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1514">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microgenic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1515 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1515">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1516 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1516">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallel process study of infant movement and language learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1517 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1517">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Randomized Control Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1518 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1518">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repeated Acquisition Design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1519 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1519">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1520 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1520">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series: Continuous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://si.eu-parc.eu/PARCO-1521 -->
+
+    <owl:Class rdf:about="http://si.eu-parc.eu/PARCO-1521">
+        <rdfs:subClassOf rdf:resource="http://si.eu-parc.eu/PARCO-1506"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time Series: Discrete</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

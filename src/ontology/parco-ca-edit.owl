@@ -1,4 +1,3 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/parco-ca.owl#>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -7,7 +6,22 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
-
+Prefix(dct:=<http://purl.org/dc/terms/>)
+Prefix(vocab:=<http://purl.org/m4m/>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(vaof:=<http://purl.org/vocommons/voaf#>)
+Prefix(dct:=<http://purl.org/dc/terms/>)
+Prefix(omv:=<http://omv.ontoware.org/2005/05/ontology>)
+Prefix(doap:=<usefulinc.com/ns/doap#>)
+Prefix(iop:=<https://w3id.org/iadopt/ont/>)
+Prefix(puv:=<https://w3id.org/env/puv#>)
+Prefix(sosa:=<http://www.w3.org/ns/sosa/>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(qudt:=<http://qudt.org/schema/qudt/>)
+Prefix(unit:=<http://qudt.org/vocab/unit/>)
 
 Ontology(<http://purl.obolibrary.org/obo/parco-ca.owl>
 
